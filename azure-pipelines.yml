@@ -21,7 +21,7 @@ steps:
   inputs:
     command: 'publish'
     publishWebProjects: false
-    projects: './publish'
+    projects: './src/Util/01-Util.csproj'
 # - task: NuGetCommand@2
 #   inputs:
 #     restoreSolution: '$(solution)'
